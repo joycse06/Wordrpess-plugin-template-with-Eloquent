@@ -20,7 +20,7 @@ $container['config'] = array(
     'database'  => DB_NAME,
     'username'  => DB_USER,
     'password'  => DB_PASSWORD,
-    'prefix'    => '',
+    'prefix'    => $table_prefix ,
     'charset'   => DB_CHARSET,
     'collation' => strlen(DB_COLLATE)?:'utf8_general_ci'
 );
