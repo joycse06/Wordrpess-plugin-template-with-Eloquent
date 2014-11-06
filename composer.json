@@ -1,0 +1,11 @@
+{
+    "require" : {
+        "illuminate/database" : "*",
+        "pimple/pimple" : "~3.0"
+    },
+    "autoload": {
+        "classmap": [
+            "models"
+        ]
+    }
+}
