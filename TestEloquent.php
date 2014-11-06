@@ -8,13 +8,13 @@
 
 include_once 'Eloquent.php';
 
-User::create([
+Dummy::create([
     'username' => 'joycse06',
     'password' => md5('hello'),
     'role_id' => 1
 ]);
 
-$user = User::all()->first();
+$dummy = Dummy::all()->first();
 
-var_dump($user->toArray());
+var_dump($dummy->toArray());
 

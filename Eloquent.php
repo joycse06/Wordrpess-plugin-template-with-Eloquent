@@ -30,7 +30,6 @@ $container['config'] = array(
  */
 
 
-
 $capsule = new Capsule;
 
 $capsule->addConnection($container['config']);
